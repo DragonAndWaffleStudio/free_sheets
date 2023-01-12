@@ -1,6 +1,10 @@
 # free_sheets
 Download your favorite sheets from Musescore! Use it while it works...
 
+For now, use:
+<code>python3 free_sheets/sheets.py</code>
+and then input the musescore link and press enter.
+
 ## Requirements:
 * Python3
 * cairosvg <code>pip install cairosvg</code>
