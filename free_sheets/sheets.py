@@ -22,7 +22,7 @@ def main(url):
 
 	l.debug("Executing scroll down...")
 	toScroll = driver.execute_script("""return document.getElementById("jmuse-scroller-component").scrollTopMax""")
-	for i in range(0, toScroll, 20):
+	for i in range(0, toScroll, 10):
 		driver.execute_script("""document.getElementById("jmuse-scroller-component").scrollTo(0, arguments[0])""", i)
 	l.debug("Done scrolling down!")
 	
