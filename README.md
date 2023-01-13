@@ -3,9 +3,13 @@ Download your favorite sheets from Musescore! Use it while it works...
 
 To install use:
 ```
-$ git clone 
-$
-$ 
+$ git clone https://github.com/DragonAndWaffleStudio/free_sheets.git
+$ pip install .
+```
+
+To run use:
+```
+$ free_sheets <url>
 ```
 and then input the musescore link and press enter.
 
