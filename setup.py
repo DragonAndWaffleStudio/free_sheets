@@ -15,6 +15,7 @@ setup(name='free_sheets',
       install_requires=['cairosvg',
                         'selenium',
                         'PyPDF2',
+                        'requests'
       ],
       include_package_data=True,
       zip_safe=False
